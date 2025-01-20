@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0BD8655E-2584-3745-BE80-01C5E852AD08}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>application</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mag06\Documents\space_pixels_basecode\_bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">application.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">application</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mag06\Documents\space_pixels_basecode\_bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">application.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">application</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\mag06\Documents\space_pixels_basecode\application\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2-2.30.6/cmake/../include" /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2_image-2.8.2/cmake/../include" /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2_ttf-2.22.0/cmake/../include" /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2_mixer-2.8.0/cmake/../include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\mag06\Documents\space_pixels_basecode\application\src;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_image-2.8.2\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_ttf-2.22.0\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_mixer-2.8.0\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mag06\Documents\space_pixels_basecode\application\src;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_image-2.8.2\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_ttf-2.22.0\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_mixer-2.8.0\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\lib\x64\SDL2main.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\lib\x64\SDL2.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_image-2.8.2\cmake\..\lib\x64\SDL2_image.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_ttf-2.22.0\cmake\..\lib\x64\SDL2_ttf.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_mixer-2.8.0\cmake\..\lib\x64\SDL2_mixer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/mag06/Documents/space_pixels_basecode/_build_vs/application/Debug/application.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/mag06/Documents/space_pixels_basecode/_bin/Debug/application.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\mag06\Documents\space_pixels_basecode\application\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2-2.30.6/cmake/../include" /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2_image-2.8.2/cmake/../include" /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2_ttf-2.22.0/cmake/../include" /external:I "C:/Users/mag06/Documents/space_pixels_basecode/third_party/SDL2_mixer-2.8.0/cmake/../include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\mag06\Documents\space_pixels_basecode\application\src;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_image-2.8.2\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_ttf-2.22.0\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_mixer-2.8.0\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mag06\Documents\space_pixels_basecode\application\src;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_image-2.8.2\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_ttf-2.22.0\cmake\..\include;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_mixer-2.8.0\cmake\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\lib\x64\SDL2main.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2-2.30.6\cmake\..\lib\x64\SDL2.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_image-2.8.2\cmake\..\lib\x64\SDL2_image.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_ttf-2.22.0\cmake\..\lib\x64\SDL2_ttf.lib;C:\Users\mag06\Documents\space_pixels_basecode\third_party\SDL2_mixer-2.8.0\cmake\..\lib\x64\SDL2_mixer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/mag06/Documents/space_pixels_basecode/_build_vs/application/Release/application.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/mag06/Documents/space_pixels_basecode/_bin/Release/application.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mag06\Documents\space_pixels_basecode\application\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/mag06/Documents/space_pixels_basecode/application/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mag06/Documents/space_pixels_basecode -BC:/Users/mag06/Documents/space_pixels_basecode/_build_vs --check-stamp-file C:/Users/mag06/Documents/space_pixels_basecode/_build_vs/application/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mag06\Documents\space_pixels_basecode\_build_vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mag06\Documents\space_pixels_basecode\_build_vs\application\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/mag06/Documents/space_pixels_basecode/application/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mag06/Documents/space_pixels_basecode -BC:/Users/mag06/Documents/space_pixels_basecode/_build_vs --check-stamp-file C:/Users/mag06/Documents/space_pixels_basecode/_build_vs/application/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mag06\Documents\space_pixels_basecode\_build_vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mag06\Documents\space_pixels_basecode\_build_vs\application\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\game_common.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\input.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\bullet.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\enemy.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\item.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_scene.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_ui.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\player.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_scene.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_ui.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\main.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\asset_manager.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\axis.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\camera.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\common.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\gizmos.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\math.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\sprite_anim.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\text.c" />
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\timer.c" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\game_common.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\input.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\bullet.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\enemy.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\item.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_scene.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_ui.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\player.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_scene.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_ui.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\settings.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\asset_manager.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\axis.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\camera.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\common.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\gizmos.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\math.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\sprite_anim.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\text.h" />
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\timer.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\mag06\Documents\space_pixels_basecode\_build_vs\ZERO_CHECK.vcxproj">
+      <Project>{679AD5AA-ED74-3A5C-BE00-534E26AC93A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\game_common.c">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\input.c">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\bullet.c">
+      <Filter>sources\game\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\enemy.c">
+      <Filter>sources\game\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\item.c">
+      <Filter>sources\game\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level.c">
+      <Filter>sources\game\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_scene.c">
+      <Filter>sources\game\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_ui.c">
+      <Filter>sources\game\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\player.c">
+      <Filter>sources\game\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_scene.c">
+      <Filter>sources\game\title</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_ui.c">
+      <Filter>sources\game\title</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\main.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\asset_manager.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\axis.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\camera.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\common.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\gizmos.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\math.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\sprite_anim.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\text.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\timer.c">
+      <Filter>sources\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\game_common.h">
+      <Filter>sources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\input.h">
+      <Filter>sources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\bullet.h">
+      <Filter>sources\game\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\enemy.h">
+      <Filter>sources\game\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\item.h">
+      <Filter>sources\game\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level.h">
+      <Filter>sources\game\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_scene.h">
+      <Filter>sources\game\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\level_ui.h">
+      <Filter>sources\game\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\level\player.h">
+      <Filter>sources\game\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_scene.h">
+      <Filter>sources\game\title</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\game\title\title_ui.h">
+      <Filter>sources\game\title</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\settings.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\asset_manager.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\axis.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\camera.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\common.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\gizmos.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\math.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\sprite_anim.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\text.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mag06\Documents\space_pixels_basecode\application\src\utils\timer.h">
+      <Filter>sources\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mag06\Documents\space_pixels_basecode\application\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{6626E8BA-B016-3F01-B0B6-1A1831354565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\game">
+      <UniqueIdentifier>{AB780368-AEDF-3E7C-AEA3-1C6811A304A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\game\level">
+      <UniqueIdentifier>{25285865-A6E5-3B6A-96AC-1B877013F40D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\game\title">
+      <UniqueIdentifier>{1FF2F7AB-EC91-3FC1-869C-C8C4642CE738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\utils">
+      <UniqueIdentifier>{CB71672F-207E-38AF-913C-FC616EB5E97C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
